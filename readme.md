@@ -1,8 +1,8 @@
-📝 Note Taking App (JWT Auth)
+# 📝 Note Taking App (JWT Auth)
 
 A secure and scalable note-taking web application that allows users to create, edit, and manage personal notes with authentication powered by JSON Web Tokens (JWT).
 
-🚀 Features
+## 🚀 Features
 🔐 User Signup & Login with JWT Authentication
 🧾 Create, Read, Delete Notes
 🛡️ Protected Routes & Authorization Middleware
@@ -12,25 +12,25 @@ A secure and scalable note-taking web application that allows users to create, e
 🎯 Clean and User-Friendly UI
 🛠️ Tech Stack
 
-Frontend:
+## Frontend:
 
 React / HTML / TailwindCSS / JavaScript
 
-Backend:
+## Backend:
 
 Node.js
 Express.js
 
-Database:
+## Database:
 
 MongoDB (Mongoose)
 
-Authentication:
+## Authentication:
 
 JSON Web Tokens (JWT)
 bcrypt
 
-⚙️ Installation & Setup
+# ⚙️ Installation & Setup
 1. Clone the Repository
 git clone https://github.com/your-username/note-taking-app.git
 cd note-taking-app
@@ -57,32 +57,9 @@ npm run dev
 # start frontend
 cd client
 npm start
-🔐 API Endpoints
-Auth Routes
-POST /api/auth/register → Register user
-POST /api/auth/login → Login user
-Notes Routes (Protected)
-GET /api/notes → Get all notes
-POST /api/notes → Create note
-PUT /api/notes/:id → Update note
-DELETE /api/notes/:id → Delete note
-🔒 Authentication Flow
-User logs in or registers
-Server generates a JWT token
-Token is sent to client
-Client stores token (localStorage / cookies)
-Token is sent in headers for protected requests
-Middleware verifies token before granting access
-📌 Future Improvements
-🗂️ Categories & Tags for notes
-🔍 Search & Filtering
-🌙 Dark Mode
-☁️ Cloud sync / backup
-🧠 Rich text editor
-🤝 Contributing
 
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
-📄 License
+### 📄 License
 
 This project is licensed under the MIT License.
